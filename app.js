@@ -32,7 +32,7 @@ const age = 2023 - year;
 const work = 60 - age;
 alert("Вам:  " + age + "  років");
 
-  if (work >= 60) {
+  if (age >= 60) {
     alert(`Шановний ${Name}, ви вже на пенсії`); 
   } else {
     alert(`Шановний ${Name}, вам на пенсію через ${work}  років`);
